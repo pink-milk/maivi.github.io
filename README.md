@@ -1,6 +1,3 @@
-
-
-
 <html> 
 <head> 
  
@@ -67,5 +64,3 @@ a { text-decoration: none; color: inherit; border-bottom: 2px dotted #aaffaa ; }
 
 </table>
 </body> 
- 
-
