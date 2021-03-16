@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/pink-milk/maivi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<html> 
+<head> 
+ 
+<style type="text/css">
+body { background-color: #303030; color: #dddddd; font-family: Helvetica, Arial, Verdana; line-height: 1.5; }
+table { padding: 3em; }
+td.a { line-height: 1.5; text-align: right; vertical-align: top; padding-right: 2em; } 
+td.b { line-height: 1.5; border-left: 1px solid white; padding-left: 2em; vertical-align: top;  }
+h1 { line-height: 1.2; font-size: 200%; }
+h2 { line-height: 1.2; font-size: 150%; color:#dd9999; }
+h3 { color: #99dddd; padding-top: 0.5em; padding-bottom: 0em; margin-bottom: 0em; font-size: 125%;}
+a { text-decoration: none; color: inherit; border-bottom: 2px dotted #aaffaa ; }a:hover { color: #aaffaa; }
+.list { color: #dd9999; }
+</style>
+ 
+</head> 
+<body> 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td class="a"><h1>CS&nbsp;480&nbsp;/&nbsp;DL2</h1> 
+ 
+<h2>Introduction<br> to Artificial Intelligence</h2>
+ 
+<td class="b">
+<p><h3 style="padding-top: 0.55em;">Professor</h3><a href="http://cs.gmu.edu/~sean/">Sean Luke</a>
 
-```markdown
-Syntax highlighted code block
+<p><h3>Meets</h3>Mondays, 4:30 to 7:10 PM Online.  This year I am also teaching CS 580.  I will try to keep the schedules in sync.  You are permitted to attend either class.
+ 
+<p><h3>Prerequisites</h3> CS330 and CS310, no exceptions.
 
-# Header 1
-## Header 2
-### Header 3
+<p><h3>Book</h3>CS480 does not require a textbook, but it is <b>very strongly recommended</b> that you pick up the following text:  <a href="http://www.amazon.com/ANSI-Common-LISP-Paul-Graham/dp/0133708756"><i>ANSI Common Lisp</i></a> by Paul Graham.  We will be referring to that text in class.  (BTW, if you're way too much into Common Lisp, you might also <a href="http://www.gigamonkeys.com/book/">pick up this too</a>). 
 
-- Bulleted
-- List
+<p>Ordinarily CS 480 would also require <a href="http://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/tags-on-product/0136042597"><i>Artificial Intelligence: A Modern Approach</i></a> by Russell and Norvig, generally considered the best AI book, but I'm going to <b>try</b> going only with lecture notes.  If you're into AI for the long haul, you might get the book anyway.
 
-1. Numbered
-2. List
+<p><h3>About the Class</h3>This course will begin by covering the basics of Lisp and the philosophy of Artificial Intelligence, plus discussion of simple systems, architectures, and platforms (robotics, etc.). From there we will discuss methods in learning (neural networks, decision trees, optimization, and time permitting, reinforcement learning). Then the course will turn to issues in problem solving and search, game design, and representation. 
 
-**Bold** and _Italic_ and `Code` text
+<p>This course will be very challenging but (I hope!) interesting and eye-opening. Artificial Intelligence is a broad interdisciplinary field with a strong tradition in exploratory programming. You are expected to know the material in CS310 and CS330 well, and be able to get up to speed rapidly doing software development with strange new programming languages. Learning Lisp is a nontrivial endeavor. You should also be prepared to discuss and think about philosophical issues and be able to draw ideas from areas outside of computer science.
+ 
+<p><h3>Course Web Page</h3> <a href="http://cs.gmu.edu/~sean/cs480/">http://cs.gmu.edu/~sean/cs480/</a> 
+ 
+ 
+<p><h3>Grading</h3> Grading will be divided roughly as follows:
 
-[Link](url) and ![Image](src)
-```
+<span class="list">25%</span> Midterm,
+ 
+<span class="list">25%</span> Non-cumulative Final Exam,
+ 
+<span class="list">50%</span> Course Assignments.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ 
+<P><h3>Honor Code</h3> The class enforces the <a href="http://honorcode.gmu.edu/">GMU Honor Code</a>, and the <a href="http://cs.gmu.edu/wiki/pmwiki.php/HonorCode/CSHonorCodePolicies">more specific honor code policy</a> special to the Department of Computer Science. You will be expected to adhere to this code and policy.
+ 
+ 
+<p><h3>Disabilities</h3>If you have a documented learning disability or other condition which may affect academic performance, make sure this documentation is on file with the <a href="http://www.gmu.edu/student/drc">Office of Disability Services</a> and come talk to me about accommodations.
+ 
+ 
+<p><h3>Course Outcomes</h3> 
+ 
+<span class="list">1.</span> A knowledge of basic uninformed and heuristic search techniques. 
+<span class="list">2.</span> A knowledge of basic logic or probabilistic reasoning techniques. 
+<span class="list">3.</span> A knowledge of basic machine learning techniques. 
+<span class="list">4.</span> An ability to implement basic AI methods in Lisp or in Prolog. 
+<span class="list">5.</span> An ability to identify and apply an appropriate AI method to a given problem.
 
-### Jekyll Themes
+</table>
+</body> 
+ 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pink-milk/maivi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
