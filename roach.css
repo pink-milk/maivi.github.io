@@ -1,0 +1,13 @@
+body {
+  max-width: 720px;
+  background-color: #000;
+  background-image: url("/roach.gif");
+  font-family: monospace, serif;
+  display: grid;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  grid-template-areas:
+    "main"
+    "footer";
+}
