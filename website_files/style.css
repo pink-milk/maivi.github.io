@@ -1,0 +1,170 @@
+body {
+  max-width: 720px;
+  background-color: #27293A;
+  background-image: url("https://nanom.neocities.org/img/flowers.gif");
+  font-family: monospace, serif;
+  display: grid;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  grid-template-areas:
+    "main"
+    "footer";
+}
+
+main {
+  border: 2px solid #272330;
+  border-radius: 4px;
+  padding: 1em;
+  background-color: #b1b3cd;
+  color: #272330;
+}
+
+footer {
+  margin-top: .5em;
+  text-align: center;
+  border: 2px solid #272330;
+  border-radius: 2px;
+  padding: 1em;
+  background-color: #b1b3cd;
+  color: #272330;
+  font-size: 12px;
+}
+
+small {
+  font-size: 12px;
+}
+
+.external {
+  min-width: 200px;
+  max-width: 350px;
+  border: 1px solid #272330;
+  border-radius: 4px;
+  padding: .5em;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+dl {
+  margin: 1em; 
+}
+
+dt {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+dt:before {
+  color: #ff1a8c;
+  content: "⟡ ";
+}
+
+p {
+  text-align: justify;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+a:link img, a:visited img, a:hover img {
+  border: none;    
+}
+
+a:link, a:visited {
+  color: #3d3d5c;
+  transition: .3s;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: #ff1a8c;
+  transition: .3s;
+}
+
+.readthis {
+  cursor: pointer;
+  color: #3d3d5c;
+  transition: .3s;
+  padding-botom: 2px;
+  border-bottom: 1px dotted;
+}
+
+.readthis:hover {
+  color: #ff1a8c;
+  transition: .3s;
+}
+
+.sep:before {
+  color: #ff1a66;
+  content: "⟡"; 
+}
+
+img {
+  border: 1px solid #272330;
+  vertical-align: middle;
+}
+
+.noborder {
+  border: none;
+}
+
+.icon {
+  border: none;
+  width: 18px;
+  height: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+li:before {
+  color: #ff1a66;
+  content: "⟡ "; 
+}
+
+.nobullet li:before {
+  content: "";
+}
+
+.notriangle > summary {
+  list-style: none;
+}
+
+.notriangle > summary:marker {
+  display: none;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #272330;
+  margin-left: 1em;
+  margin-right: 1em;
+}
