@@ -1,7 +1,7 @@
 body {
   max-width: 720px;
   background-color: #27293A;
-  background-image: url("https://nanom.neocities.org/img/flowers.gif");
+  background-image: url("/flowers.gif");
   font-family: monospace, serif;
   display: grid;
   margin: auto;
