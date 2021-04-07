@@ -3,6 +3,7 @@ body {
   
   color: #FFFFFF;
   background-image: url("/roach.gif");
+  background-color:#000000;
   font-family: monospace, serif;
   display: grid;
   margin: auto;
