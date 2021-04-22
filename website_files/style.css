@@ -14,7 +14,7 @@ body {
 
 main {
   border: 2px solid #272330;
-  border-radius: 4px;
+  border-radius: 1px;
   padding: 1em;
   background-color: #b1b3cd;
   color: #272330;
@@ -24,7 +24,7 @@ footer {
   margin-top: .5em;
   text-align: center;
   border: 2px solid #272330;
-  border-radius: 2px;
+  border-radius: 1px;
   padding: 1em;
   background-color: #b1b3cd;
   color: #272330;
